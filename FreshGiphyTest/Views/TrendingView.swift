@@ -39,7 +39,7 @@ struct TrendingView: View {
                     Text("No GIFs Found")
                         .padding(.top, 20)
                 } else {
-                    ForEach(gifs) { gif in
+                    ForEach(gifs, id: \.id) { gif in
                         GiphImageView(gif: gif)
                             .frame(width: 400, height: 350, alignment: .center)
                             .background(Color("Moonlight"))
@@ -57,7 +57,7 @@ struct TrendingView: View {
                             .padding(.top, 30)
                     } else {
                         VStack(spacing: 15) {
-                            ForEach(trendingViewModel.fetchedTrendingGIFs) { gif in
+                            ForEach(trendingViewModel.fetchedTrendingGIFs, id: \.id) { gif in
                                 GiphImageView(gif: gif)
                                     .frame(width: 400, height: 350, alignment: .center)
                                     .background(Color("Moonlight"))
