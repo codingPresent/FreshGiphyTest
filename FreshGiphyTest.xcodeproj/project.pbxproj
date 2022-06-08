@@ -16,6 +16,18 @@
 		328CC38F284FB98C00BE2CDD /* FreshGiphyTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328CC38E284FB98C00BE2CDD /* FreshGiphyTestTests.swift */; };
 		328CC399284FB98C00BE2CDD /* FreshGiphyTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328CC398284FB98C00BE2CDD /* FreshGiphyTestUITests.swift */; };
 		328CC39B284FB98C00BE2CDD /* FreshGiphyTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328CC39A284FB98C00BE2CDD /* FreshGiphyTestUITestsLaunchTests.swift */; };
+		328CC3A8284FD07700BE2CDD /* TrendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328CC3A7284FD07700BE2CDD /* TrendingView.swift */; };
+		328CC3AA284FD08B00BE2CDD /* FavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328CC3A9284FD08B00BE2CDD /* FavouriteView.swift */; };
+		328CC3AC284FD32200BE2CDD /* TrendingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328CC3AB284FD32200BE2CDD /* TrendingViewModel.swift */; };
+		328CC3AE284FD4C600BE2CDD /* GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328CC3AD284FD4C600BE2CDD /* GIF.swift */; };
+		328CC3B0284FDF2000BE2CDD /* GiphyImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328CC3AF284FDF2000BE2CDD /* GiphyImageExtensions.swift */; };
+		328CC3B2284FDFB100BE2CDD /* GiphImageViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328CC3B1284FDFB100BE2CDD /* GiphImageViewRepresentable.swift */; };
+		328CC3B4284FE08300BE2CDD /* UIGiphyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328CC3B3284FE08300BE2CDD /* UIGiphyImage.swift */; };
+		32E820192850DD5400549499 /* GiphImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E820182850DD5400549499 /* GiphImageView.swift */; };
+		32E8201B2850E2A000549499 /* FavViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E8201A2850E2A000549499 /* FavViewModel.swift */; };
+		32E820312850EE6300549499 /* GiphData+CoreDataUpdation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E820302850EE6300549499 /* GiphData+CoreDataUpdation.swift */; };
+		32E820342851028F00549499 /* GiphData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E820322851028F00549499 /* GiphData+CoreDataClass.swift */; };
+		32E820352851028F00549499 /* GiphData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E820332851028F00549499 /* GiphData+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +60,18 @@
 		328CC394284FB98C00BE2CDD /* FreshGiphyTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreshGiphyTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		328CC398284FB98C00BE2CDD /* FreshGiphyTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshGiphyTestUITests.swift; sourceTree = "<group>"; };
 		328CC39A284FB98C00BE2CDD /* FreshGiphyTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshGiphyTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		328CC3A7284FD07700BE2CDD /* TrendingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingView.swift; sourceTree = "<group>"; };
+		328CC3A9284FD08B00BE2CDD /* FavouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteView.swift; sourceTree = "<group>"; };
+		328CC3AB284FD32200BE2CDD /* TrendingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingViewModel.swift; sourceTree = "<group>"; };
+		328CC3AD284FD4C600BE2CDD /* GIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIF.swift; sourceTree = "<group>"; };
+		328CC3AF284FDF2000BE2CDD /* GiphyImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyImageExtensions.swift; sourceTree = "<group>"; };
+		328CC3B1284FDFB100BE2CDD /* GiphImageViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphImageViewRepresentable.swift; sourceTree = "<group>"; };
+		328CC3B3284FE08300BE2CDD /* UIGiphyImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGiphyImage.swift; sourceTree = "<group>"; };
+		32E820182850DD5400549499 /* GiphImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphImageView.swift; sourceTree = "<group>"; };
+		32E8201A2850E2A000549499 /* FavViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavViewModel.swift; sourceTree = "<group>"; };
+		32E820302850EE6300549499 /* GiphData+CoreDataUpdation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GiphData+CoreDataUpdation.swift"; sourceTree = "<group>"; };
+		32E820322851028F00549499 /* GiphData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GiphData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		32E820332851028F00549499 /* GiphData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GiphData+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +123,11 @@
 			isa = PBXGroup;
 			children = (
 				328CC378284FB98900BE2CDD /* FreshGiphyTestApp.swift */,
-				328CC37A284FB98900BE2CDD /* ContentView.swift */,
+				32E8201F2850E76A00549499 /* DataSource */,
+				32E8201C2850E6D700549499 /* Views */,
+				32E8201D2850E6F100549499 /* CodableObjects */,
+				32E8201E2850E74100549499 /* DataViewModel */,
 				328CC37C284FB98C00BE2CDD /* Assets.xcassets */,
-				328CC381284FB98C00BE2CDD /* Persistence.swift */,
-				328CC383284FB98C00BE2CDD /* FreshGiphyTest.xcdatamodeld */,
 				328CC37E284FB98C00BE2CDD /* Preview Content */,
 			);
 			path = FreshGiphyTest;
@@ -131,6 +156,49 @@
 				328CC39A284FB98C00BE2CDD /* FreshGiphyTestUITestsLaunchTests.swift */,
 			);
 			path = FreshGiphyTestUITests;
+			sourceTree = "<group>";
+		};
+		32E8201C2850E6D700549499 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				328CC37A284FB98900BE2CDD /* ContentView.swift */,
+				328CC3A7284FD07700BE2CDD /* TrendingView.swift */,
+				328CC3AF284FDF2000BE2CDD /* GiphyImageExtensions.swift */,
+				328CC3B1284FDFB100BE2CDD /* GiphImageViewRepresentable.swift */,
+				32E820182850DD5400549499 /* GiphImageView.swift */,
+				328CC3B3284FE08300BE2CDD /* UIGiphyImage.swift */,
+				328CC3A9284FD08B00BE2CDD /* FavouriteView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		32E8201D2850E6F100549499 /* CodableObjects */ = {
+			isa = PBXGroup;
+			children = (
+				328CC3AD284FD4C600BE2CDD /* GIF.swift */,
+			);
+			path = CodableObjects;
+			sourceTree = "<group>";
+		};
+		32E8201E2850E74100549499 /* DataViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				32E8201A2850E2A000549499 /* FavViewModel.swift */,
+				328CC3AB284FD32200BE2CDD /* TrendingViewModel.swift */,
+			);
+			path = DataViewModel;
+			sourceTree = "<group>";
+		};
+		32E8201F2850E76A00549499 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				32E820322851028F00549499 /* GiphData+CoreDataClass.swift */,
+				32E820332851028F00549499 /* GiphData+CoreDataProperties.swift */,
+				32E820302850EE6300549499 /* GiphData+CoreDataUpdation.swift */,
+				328CC381284FB98C00BE2CDD /* Persistence.swift */,
+				328CC383284FB98C00BE2CDD /* FreshGiphyTest.xcdatamodeld */,
+			);
+			path = DataSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,9 +332,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				328CC385284FB98C00BE2CDD /* FreshGiphyTest.xcdatamodeld in Sources */,
+				32E820342851028F00549499 /* GiphData+CoreDataClass.swift in Sources */,
 				328CC382284FB98C00BE2CDD /* Persistence.swift in Sources */,
+				328CC3B0284FDF2000BE2CDD /* GiphyImageExtensions.swift in Sources */,
+				328CC3B4284FE08300BE2CDD /* UIGiphyImage.swift in Sources */,
+				32E820192850DD5400549499 /* GiphImageView.swift in Sources */,
+				328CC3AE284FD4C600BE2CDD /* GIF.swift in Sources */,
+				328CC3B2284FDFB100BE2CDD /* GiphImageViewRepresentable.swift in Sources */,
+				32E8201B2850E2A000549499 /* FavViewModel.swift in Sources */,
 				328CC37B284FB98900BE2CDD /* ContentView.swift in Sources */,
+				328CC3AC284FD32200BE2CDD /* TrendingViewModel.swift in Sources */,
+				32E820352851028F00549499 /* GiphData+CoreDataProperties.swift in Sources */,
+				328CC3A8284FD07700BE2CDD /* TrendingView.swift in Sources */,
+				328CC3AA284FD08B00BE2CDD /* FavouriteView.swift in Sources */,
 				328CC379284FB98900BE2CDD /* FreshGiphyTestApp.swift in Sources */,
+				32E820312850EE6300549499 /* GiphData+CoreDataUpdation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +433,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -407,7 +487,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -438,7 +518,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.naveen.giphyTest.FreshGiphyTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naveen.giphyTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -467,7 +547,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.naveen.giphyTest.FreshGiphyTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naveen.giphyTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
